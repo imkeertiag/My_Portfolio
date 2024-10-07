@@ -2,8 +2,8 @@ import './Recommendation.css';
 import '../pages/Home.css'
 import { useLocation } from 'react-router-dom';
 import React, { useState } from 'react';
-import pro from '../assets/profile.jpg';
-import pro2 from '../assets/profile2.jpg';
+import pro from '../assets/Profile.jpg';
+import pro2 from '../assets/Profile2.jpg';
 
 export const Recommendation = () => {
 const [currentIndex, setCurrentIndex] = useState(0);
