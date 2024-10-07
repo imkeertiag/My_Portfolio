@@ -1,0 +1,39 @@
+/* error page  */
+#error-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 40px;
+    background-color: var(--project-color);
+  }
+  .header{
+   padding: 50px;
+   font-size: 64px;
+   letter-spacing: 5px;
+   color: var(--hoverr-color) ;
+   text-shadow: 5px 6px 5px black;
+  }
+  #error-page .content {
+    text-align: center;
+  }
+  .errorbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  .add-btn{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 18px;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 12px 24px 12px 24px;
+    background-color: var(--hoverr-color);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
