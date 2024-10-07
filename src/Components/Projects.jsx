@@ -1,11 +1,11 @@
 import '../pages/Home.css'
 import { useLocation } from 'react-router-dom';
-import image1 from "../assets/image1.jpg";
-import image2 from "../assets/image2.jpg";
-import image3 from "../assets/image3.jpg";
-import image4 from "../assets/image4.jpg";
-import image5 from "../assets/image5.jpg";
-import image6 from "../assets/image6.jpg";
+import image1 from "../assets/Image1.jpg";
+import image2 from "../assets/Image2.jpg";
+import image3 from "../assets/Image3.jpg";
+import image4 from "../assets/Image4.jpg";
+import image5 from "../assets/Image5.jpg";
+import image6 from "../assets/Image6.jpg";
 export const Projects = () => {
   
 // using location & isProjectPage operator to give space to the '/project' route so that content do not hide in the navbar and space is only visible to project page not the project section of the home page
